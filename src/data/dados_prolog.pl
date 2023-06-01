@@ -1241,7 +1241,7 @@ km_driven(45087).
 km_driven(7900).
 km_driven(56600).
 fuel('Electric').
-fuel.
+fuel('Diesel').
 fuel('Petrol').
 fuel('LPG').
 fuel('CNG').

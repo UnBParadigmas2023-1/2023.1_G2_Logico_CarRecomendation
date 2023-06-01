@@ -1,10 +1,11 @@
 :- use_module(library(pce)).
 
-:- [src/recomendacoes/preco].
-:- [src/recomendacoes/marca].
-:- [src/recomendacoes/ano].
-:- [src/recomendacoes/tipo_combustivel].
-:- [src/recomendacoes/tipo_tranmissao].
+:- [recomendacoes/preco].
+:- [recomendacoes/marca].
+:- [recomendacoes/ano].
+:- [recomendacoes/tipo_combustivel].
+:- [recomendacoes/tipo_transmissao].
+
 
 car_recommendation :-
     % implementar aqui...

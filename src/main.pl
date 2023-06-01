@@ -1,4 +1,4 @@
-:- [src/menu].
+:- [menu].
 
 start: -
     car_recommendation.
