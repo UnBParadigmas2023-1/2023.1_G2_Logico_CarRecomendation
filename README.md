@@ -10,6 +10,7 @@
 | ---------- | ---------------------------- |
 | 18/0108344 | Rafael Berto Pereira         |
 | 20/0017519 | Eurico Menezes de Abreu Neto |
+| 19/0016663 | Lucas Pimentel Quintão       |
 
 ## Sobre
 
@@ -51,7 +52,7 @@ TEMPO: +/- 15min
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Fulano | Programação dos Fatos da Base de Conhecimento Lógica | Boa |
+| Lucas | Contribui com o script para montar a base de fatos, no desenvolvimento de funções para montar o perfil do usuário e auxiliei no desenvolvimento de funções de recomendação. Acredito que este paradigma foi um desafio maior para a equipe, tanto na concepção da ideia do projeto quanto para o desenvolvimento dele. Poderia ter contribuido mais se tivesse me organizado melhor durante a semana.| Excelente |
 
 ## Outros
 
