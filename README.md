@@ -12,6 +12,7 @@
 | 20/0017519 | Eurico Menezes de Abreu Neto |
 | 19/0016663 | Lucas Pimentel Quintão       |
 | 19/0044403 | Victor Souza Dantas Martins Lima|
+| 19/0033088 | Lucas Braun Vieira Xavier |
 
 ## Sobre
 
@@ -57,6 +58,8 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Eurico | Contribui majoritariamente no front-end com o Gustavo, como eu estava em um sistema em que o Win-Prolog não funciona fiz pair programming com ele, tive uma contribuição mais singela no back também. Senti que foi um projeto mais difícil para mim e para o grupo, se eu tivesse me organizado melhor teria conseguido contribuir mais. | Boa |
 |Rafael Berto Pereira| Contribui mais no "backend" do projeto. Ajudei muito na parte de entender a lógica por tras da regra findall() consequentemente no filtro para o recomendador. Não foi uma das minhas linguagens preferidas, mas consegui entender o poder de dedução da linguagem. O trabalho poderia ter avançado mais se não fosse a dificuldade inicial de entender o paradigma dessa linguagem | Excelente|
 | Victor Lima| Contribui na criação do filtro por combustível, posteriormente trabalhei com o Lucas e o Rafael na parte de mapeamento para o perfil de usuário e adequação da recomendação. Sinto que esse paradigma foi mais complexo em relação ao anterior, a maioria da equipe sentiu dificuldade para se adequar,porém , acredito que obtivemos um bom resultado | Excelente |
+| Lucas Braun | Contribuí parte da recomendação por transmissão. Apesar de também ser um paradigma interessante, o lógico não me cativou tanto quanto o funcional, principalmente por parecer ter menos usos e também devido a qualidade e clareza da documentação. | Regular |
+
 ## Outros
 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
