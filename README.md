@@ -11,6 +11,7 @@
 | 18/0108344 | Rafael Berto Pereira         |
 | 20/0017519 | Eurico Menezes de Abreu Neto |
 | 19/0016663 | Lucas Pimentel Quintão       |
+| 19/0044403 | Victor Souza Dantas Martins Lima|
 
 ## Sobre
 
@@ -54,7 +55,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | -- | -- | -- |
 | Lucas Pimentel | Contribui com o script para montar a base de fatos, no desenvolvimento de funções para montar o perfil do usuário e auxiliei no desenvolvimento de funções de recomendação. Acredito que este paradigma foi um desafio maior para a equipe, tanto na concepção da ideia do projeto quanto para o desenvolvimento dele. Poderia ter contribuido mais se tivesse me organizado melhor durante a semana.| Excelente |
 | Eurico | Contribui majoritariamente no front-end com o Gustavo, como eu estava em um sistema em que o Win-Prolog não funciona fiz pair programming com ele, tive uma contribuição mais singela no back também. Senti que foi um projeto mais difícil para mim e para o grupo, se eu tivesse me organizado melhor teria conseguido contribuir mais. | Boa |
-
+| Eurico | Contribui na criação do filtro por combustível, posteriormente trabalhei com o Lucas e o Rafael na parte de mapeamento para o perfil de usuário e adequação da recomendação. Sinto que esse paradigma foi mais complexo em relação ao anterior, a maioria da equipe sentiu dificuldade para se adequar,porém , acredito que obtivemos um bom resultado | Excelente |
 ## Outros
 
 Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não esqueça, entretanto, de informar sobre:
