@@ -13,9 +13,11 @@ car_recommendation :-
     write('Digite o ano do carro para o inicio do intervalo:'),
     nl,
     read(AnoInicial),
+    verificar_ano_inicial(AnoInicial, AnoSubstituidoInicial),
     write('Digite o ano do carro para o final do intervalo:'),
     nl,
     read(AnoFinal),
+    verificar_ano_Final(AnoFinal, AnoSubstituidoFinal),
     write('Digite o preco do carro para o inicio do intervalo:'),
     nl,
     read(PrecoInicial),
@@ -28,7 +30,7 @@ car_recommendation :-
     write('Digite Manual ou Automatico entre aspas simples:'),
     nl,
     read(Transmicao),
-    imprimirResultadoTodos(Marca, AnoInicial, AnoFinal, PrecoInicial, PrecoFinal, Combustivel, Transmicao). %Esse regra Será um grande findall
+    imprimirResultadoTodos(Marca, AnoSubstituidoInicial, AnoSubstituidoFinal, PrecoInicial, PrecoFinal, Combustivel, Transmicao). %Esse regra Será um grande findall
 
 
 imprimirIntersecaoMerge(Marca,Ano):-

@@ -21,3 +21,17 @@ intersection([H|T], List2, [H|Result]) :-
 intersection([_|T], List2, Result) :-
     intersection(T, List2, Result).
 
+
+
+substituirInicial_any(Any, 1990) :- Any = 'Any'.
+substituirInicial_any(Ano, Ano).
+
+verificar_ano_inicial(Ano, AnoSubstituido) :-
+  substituirInicial_any(Ano, AnoSubstituido).
+
+substituirFinal_any(Any, 2020) :- Any = 'Any'.
+substituirFinal_any(Ano, Ano).
+
+verificar_ano_Final(Ano, AnoSubstituido) :-
+  substituirFinal_any(Ano, AnoSubstituido).
+
