@@ -5,8 +5,13 @@
 :- [recomendacoes/tipo_transmissao].
 :- [recomendacoes/utils].
 :- [recomendacoes/todos].
+:- [recomendacoes/perfilUsuario].
+
 
 car_recommendation :-
+    write('Digite sua idade:'),    
+    nl,
+    read(Idade),
     write('Digite a marca do carro entre aspas simples e primeira letra em maiusculo:'),
     nl,
     read(Marca),
@@ -18,19 +23,15 @@ car_recommendation :-
     nl,
     read(AnoFinal),
     verificar_ano_Final(AnoFinal, AnoSubstituidoFinal),
-    write('Digite o preco do carro para o inicio do intervalo:'),
-    nl,
-    read(PrecoInicial),
-    write('Digite o preco do carro para o final do intervalo:'),
-    nl,
-    read(PrecoFinal),
     write('Digite o combustivel do carro entre aspas simples e primeira letra em maiusculo:'),
     nl,
     read(Combustivel),
-    write('Digite Manual ou Automatico entre aspas simples:'),
+    write('Você prefere optar por Conforto ou Economia:'),
     nl,
-    read(Transmicao),
-    imprimirResultadoTodos(Marca, AnoSubstituidoInicial, AnoSubstituidoFinal, PrecoInicial, PrecoFinal, Combustivel, Transmicao). %Esse regra Será um grande findall
+    read(Cambio),
+    confortoEconomia(Cambio, Transmissao),
+    faixaDePreco(Idade, PrecoInicial, PrecoFinal),
+    imprimirResultadoTodos(Marca, AnoSubstituidoInicial, AnoSubstituidoFinal, PrecoInicial, PrecoFinal, Combustivel,Transmissao). %Esse regra Será um grande findall
 
 
 imprimirIntersecaoMerge(Marca,Ano):-

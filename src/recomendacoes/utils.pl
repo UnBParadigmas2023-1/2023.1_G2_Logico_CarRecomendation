@@ -35,3 +35,10 @@ substituirFinal_any(Ano, Ano).
 verificar_ano_Final(Ano, AnoSubstituido) :-
   substituirFinal_any(Ano, AnoSubstituido).
 
+remover_duplicados([], []).
+remover_duplicados([X|Xs], Ys) :-
+    member(X, Xs),
+    !,
+    remover_duplicados(Xs, Ys).
+remover_duplicados([X|Xs], [X|Ys]) :-
+    remover_duplicados(Xs, Ys).
