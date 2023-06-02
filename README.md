@@ -18,7 +18,9 @@ Um projeto que utiliza Prolog para oferecer recomendações personalizadas de ca
 
 ## Screenshots
 
-Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcionamento.
+![](assets/back1.png)
+
+![](assets/front1.png)
 
 ## Instalação
 
