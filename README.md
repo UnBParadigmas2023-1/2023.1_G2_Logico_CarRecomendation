@@ -13,6 +13,7 @@
 | 19/0016663 | Lucas Pimentel Quintão       |
 | 19/0044403 | Victor Souza Dantas Martins Lima|
 | 19/0033088 | Lucas Braun Vieira Xavier |
+| 20/0019228 | Gustavo Martins Ribeiro | 
 
 ## Sobre
 
@@ -59,6 +60,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Rafael Berto Pereira| Contribui mais no "backend" do projeto. Ajudei muito na parte de entender a lógica por tras da regra findall() consequentemente no filtro para o recomendador. Não foi uma das minhas linguagens preferidas, mas consegui entender o poder de dedução da linguagem. O trabalho poderia ter avançado mais se não fosse a dificuldade inicial de entender o paradigma dessa linguagem | Excelente|
 | Victor Lima| Contribui na criação do filtro por combustível, posteriormente trabalhei com o Lucas e o Rafael na parte de mapeamento para o perfil de usuário e adequação da recomendação. Sinto que esse paradigma foi mais complexo em relação ao anterior, a maioria da equipe sentiu dificuldade para se adequar,porém , acredito que obtivemos um bom resultado | Excelente |
 | Lucas Braun | Contribuí parte da recomendação por transmissão. Apesar de também ser um paradigma interessante, o lógico não me cativou tanto quanto o funcional, principalmente por parecer ter menos usos e também devido a qualidade e clareza da documentação. | Regular |
+| Gustavo Martins | Minha principal contribuição para o projeto Car Recommendation refere-se ao desenvolvimento e evolução da interface gráfica do projeto. Diante disso, com o auxilio de outros colegas, consegui resolver diverços problemas que por ventura surgiram ao longo do desenvolvimento. Além disso, participei das diverças reuniões para definir as diferentes diretrizes do projeto para tomada de decisões e definição de escopo. | Excelente | 
 
 ## Outros
 
