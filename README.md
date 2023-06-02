@@ -14,9 +14,7 @@
 
 ## Sobre
 
-Descreva o seu projeto em linhas gerais.
-Use referências, links, que permitam conhecer um pouco mais sobre o projeto.
-Capriche nessa seção, pois ela é a primeira a ser lida pelos interessados no projeto.
+Um projeto que utiliza Prolog para oferecer recomendações personalizadas de carros, levando em consideração marca, transmissão, ano e combustível. Facilita a escolha do usuário, fornecendo opções alinhadas às suas preferências.
 
 ## Screenshots
 
@@ -25,7 +23,7 @@ Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcioname
 ## Instalação
 
 **Linguagens**: Prolog<br>
-**Tecnologias**: SWI Prolog<br>
+**Tecnologias**: SWI Prolog, Win-Prolog<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
 Gifs animados e outras ilustrações são bem-vindos!
@@ -52,7 +50,7 @@ TEMPO: +/- 15min
 Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
-| Lucas | Contribui com o script para montar a base de fatos, no desenvolvimento de funções para montar o perfil do usuário e auxiliei no desenvolvimento de funções de recomendação. Acredito que este paradigma foi um desafio maior para a equipe, tanto na concepção da ideia do projeto quanto para o desenvolvimento dele. Poderia ter contribuido mais se tivesse me organizado melhor durante a semana.| Excelente |
+| Lucas Pimentel | Contribui com o script para montar a base de fatos, no desenvolvimento de funções para montar o perfil do usuário e auxiliei no desenvolvimento de funções de recomendação. Acredito que este paradigma foi um desafio maior para a equipe, tanto na concepção da ideia do projeto quanto para o desenvolvimento dele. Poderia ter contribuido mais se tivesse me organizado melhor durante a semana.| Excelente |
 | Eurico | Contribui majoritariamente no front-end com o Gustavo, como eu estava em um sistema em que o Win-Prolog não funciona fiz pair programming com ele, tive uma contribuição mais singela no back também. Senti que foi um projeto mais difícil para mim e para o grupo, se eu tivesse me organizado melhor teria conseguido contribuir mais. | Boa |
 
 ## Outros
@@ -65,5 +63,6 @@ Quaisquer outras informações sobre o projeto podem ser descritas aqui. Não es
 
 ## Fontes
 
-Referencie, adequadamente, as referências utilizadas.
-Indique ainda sobre fontes de leitura complementares.
+- https://www.swi-prolog.org
+- https://www.lpa.co.uk/win.htm
+- https://www.kaggle.com/datasets/akshaydattatraykhare/car-details-dataset
