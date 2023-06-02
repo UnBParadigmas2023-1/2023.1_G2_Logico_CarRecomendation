@@ -1,5 +1,4 @@
 :- consult('./../data/dados_prolog.pl'). %fatos do recomendador
-:- [ano].
 :- [utils].
 
 
@@ -23,22 +22,15 @@ imprimirResultadoMarca(Marca) :-
 
 
 %>>>>>>>>>>>>>>>> REGRAS P/ TESTE D INTERSECÇÃO...
-imprimirIntersecaoMerge(Marca,Ano):-
-    recomendaIntersecao(Marca, Ano, Resposta),
-    imprimirResultado(Resposta).
 
-recomendaIntersecao(Marca, Ano, Resposta) :-
-    recomendaMarca(Marca, RespostaMarca),
-    recomendaAno(Ano, RespostaAno),
-    intersection(RespostaMarca, RespostaAno, Resposta).
+% encontrarMarcas(Marcas) :-
+%     bagof(Marca,(
+%         car(Carro, Ano, Km, Preco, Combustivel, Proprietario, Transmissao, Dono),
+%         obterMarca(Carro, Marca)
+%     ), Marcas),
+    
+%     write(Marcas).
+
 
 %<<<<<<<<<<<<<<<<<<<<<<<<<<< FIM
 
-
-
-
-% nl,
-    % nl,
-    % nl,
-    % nl,
-    % write('Intersecção dos resultados...'),
