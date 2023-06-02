@@ -1,4 +1,4 @@
 :- [menu].
 
-start: -
+start :-
     car_recommendation.

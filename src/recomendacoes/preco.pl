@@ -1,5 +1,5 @@
 :- consult('./../data/dados_prolog.pl').
-
+:- [utils].
 
 % car(Maruti 800 AC, 2007, 60000, 70000, Petrol, Individual, Manual, First Owner).
 recomendaPreco(Preco) :- 
@@ -29,13 +29,6 @@ recomendaPrecoIntervalo(PrecoInicial, PrecoFinal) :-
     
     % imprimir lista ordenada
     imprimirResultado(Sorted).
-
-% Regra de imprimir o resultado
-imprimirResultado([]).
-imprimirResultado([Item | Resto]) :-
-    write(Item),
-    nl,
-    imprimirResultado(Resto).
 
 % Regra de conversão para o maplist
 converter_para_par(Chave/Itens, Chave-Itens).
