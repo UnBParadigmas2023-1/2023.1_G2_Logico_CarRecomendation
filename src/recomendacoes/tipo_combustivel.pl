@@ -10,7 +10,7 @@ recomendaCombustivel(Combustivel, Resposta) :-
     Resposta = Sorted.
 
 
-imprimirResultadoTransmissao(Combustivel) :-
+imprimirResultadoCombustivel(Combustivel) :-
     recomendaCombustivel(Combustivel, Resposta),
     imprimirResultado(Resposta).
 
