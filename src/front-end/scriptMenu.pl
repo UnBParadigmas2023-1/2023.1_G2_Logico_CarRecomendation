@@ -1,10 +1,11 @@
 
+% ------------------------------------------------ CRIANDO A JANELA ---------------------------------------------------------- 
+
 % CRIANDO A JANELA DE DIALOGO
 ?- wcreate(menu,dialog,`Car Recommendation`,800,1000,1600,900,16'80c80000).
 
 % CRIANDO OS COMPONENTES DA JANELA DE DIALOGO
-
-?- wcreate((menu,1),button,`&Clean`,930,730,300,64,16'50080000).
+?- wcreate((menu,1),button,`&Clean`,850,730,300,64,16'50080000).
 ?- wcreate((menu,2),button,`&Search`,400,730,300,64,16'50010000). 
 
 ?- wcreate((menu,3),combobox,``,130,187,240,192,16'50a10002).
@@ -15,21 +16,21 @@
 ?- wcreate((menu,8),combobox,``,1210,187,120,192,16'50a10002).
 ?- wcreate((menu,9),combobox,``,1340,187,120,192,16'50a10002).
 
-?- wcreate((menu,10),listbox,``,300,250,1050,400,16'50a10002).
+?- wcreate((menu,10),listbox,``,380,400,800,300,16'50a10002).
 
 ?- wcreate((menu,11),static,`&FIELD`,230,100,240,64,16'50080000).
 ?- wcreate((menu,12),static,`&TRANSMISSION`,480,100,240,64,16'50080000).
 ?- wcreate((menu,13),static,`&MODEL`,765,100,240,64,16'50080000).
-?- wcreate((menu,14),static,`&RELEASE DATE RANGE ( YEARS )`,967,100,240,64,16'50080000).
+?- wcreate((menu,14),static,`&RELEASE ( YEARS )`,967,100,240,64,16'50080000).
 ?- wcreate((menu,141),static,`FROM`,973,150,120,30,16'50080000).
 ?- wcreate((menu,142),static,`TO`,1110,150,120,30,16'50080000).
-?- wcreate((menu,143),static,`Min Value =  2011  |  Max Value = 2023`,963,220,300,30,16'50080000).
-?- wcreate((menu,15),static,`&PRICE RANGE ( U$ )`,1280,100,240,64,16'50080000).
+?- wcreate((menu,143),static,`Min Value =  2011  |  Max Value = 2023`,943,220,300,30,16'50080000).
+?- wcreate((menu,15),static,`&PRICE RANGE ( U$ )`,1240,100,240,64,16'50080000).
 ?- wcreate((menu,151),static,`FROM`,1248,150,120,30,16'50080000).
 ?- wcreate((menu,152),static,`TO`,1385,150,120,30,16'50080000).
-?- wcreate((menu,153),static,`Min Value =  20000  |  Max Value = 1000000`,1232,220,300,30,16'50080000).
+?- wcreate((menu,153),static,`Min Value =  20.000  |  Max Value = 10.000.000`,1212,220,300,30,16'50080000).
 
-?- wcreate((menu,16),static,`CAR RECOMMENDATION SYSTEM`,750,30,240,50,16'50080000).
+?- wcreate((menu,16),static,`CAR RECOMMENDATION SYSTEM`,450,30,1000,50,16'50080000).
 
 % POPULANDO OS COMBOBOX PARA TESTES
 
@@ -42,16 +43,11 @@
 ?- wlbxadd((menu,4),-1,`Automatic`).
 ?- wlbxadd((menu,4),-1,`Manual`).
 
-?- wlbxadd((menu,5),-1,`Maruti 800 AC`).
-?- wlbxadd((menu,5),-1,`Maruti Wagon R LXI Minor`).
-?- wlbxadd((menu,5),-1,`Hyundai Verna 1.6 SX`).
-?- wlbxadd((menu,5),-1,`Datsun RediGO T Option`).
-?- wlbxadd((menu,5),-1,`Honda Amaze VX i-DTEC`).
-?- wlbxadd((menu,5),-1,`Maruti Alto LX BSIII`).
-?- wlbxadd((menu,5),-1,`Hyundai Xcent 1.2 Kappa S`).
-?- wlbxadd((menu,5),-1,`Tata Indigo Grand Petrol`).
-?- wlbxadd((menu,5),-1,`Hyundai Creta 1.6 VTVT S`).
-?- wlbxadd((menu,5),-1,`Maruti Celerio Green VXI`).
+?- wlbxadd((menu,5),-1,`Maruti`).
+?- wlbxadd((menu,5),-1,`Hyundai`).
+?- wlbxadd((menu,5),-1,`Datsun`).
+?- wlbxadd((menu,5),-1,`Honda`).
+?- wlbxadd((menu,5),-1,`Tata`).
 
 ?- wlbxadd((menu,6),-1,`2011`).
 ?- wlbxadd((menu,6),-1,`2012`).
@@ -92,6 +88,53 @@
 ?- wlbxadd((menu,10),-1,`Diesel S-10, Manual, Hyundai Creta 1.6 VTVT S,2015, 100000`).
 ?- wlbxadd((menu,10),-1,`Common Diesel, Automatic, Maruti Celerio Green VXI,2017, 60000`).
 
+% DEFININDO FONTES
+?- wfcreate(font0,'courier new',60,3).
+?- wfcreate(font1,'courier new',30,3).
+?- wfcreate(font2,'arial',30,1).
+?- wfcreate(font3,'courier new',20,3).
+?- wfcreate(font4,'arial',16,3).
+?- wfcreate(font5,'arial',16,1).
+
+% APLICANDO FONTES
+?- wfont((menu,1),font1).
+?- wfont((menu,2),font1).
+
+?- wfont((menu,10),font2).
+
+?- wfont((menu,16),font0).
+?- wfont((menu,11),font3).
+?- wfont((menu,12),font3).
+?- wfont((menu,13),font3).
+?- wfont((menu,14),font3).
+?- wfont((menu,15),font3).
+?- wfont((menu,143),font4).
+?- wfont((menu,153),font4).
+
+?- wfont((menu,3),font5).
+?- wfont((menu,4),font5).
+?- wfont((menu,5),font5).
+?- wfont((menu,6),font5).
+?- wfont((menu,7),font5).
+?- wfont((menu,8),font5).
+?- wfont((menu,9),font5).
+
+% ------------------------------------------------ PROCESSANDO EVENTOS ------------------------------------------------------------------
+
+
+
+
+
+% --------------------------------------------------- DEFININDO FATOS -----------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+% --------------------------------------------------- EXIBINDO A JANELA  -----------------------------------------------------------------------------
 % EXIBINDO A JANELA DE DIALOGO
 ?- call_dialog(menu,X).
 
