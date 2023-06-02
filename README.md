@@ -15,6 +15,7 @@
 | 19/0033088 | Lucas Braun Vieira Xavier        |
 | 20/0019228 | Gustavo Martins Ribeiro          |
 | 19/0055201 | Matheus Calixto Vaz Pinheiro     |
+| 19/0027088 | Eliás Yousef Santana Ali         |
 
 ## Sobre
 
@@ -64,6 +65,7 @@ Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 | Gustavo Martins | Minha principal contribuição para o projeto Car Recommendation refere-se ao desenvolvimento e evolução da interface gráfica do projeto. Diante disso, com o auxilio de outros colegas, consegui resolver diverços problemas que por ventura surgiram ao longo do desenvolvimento. Além disso, participei das diverças reuniões para definir as diferentes diretrizes do projeto para tomada de decisões e definição de escopo. | Excelente |
 | Matheus Calixto | Contribui na parte de recomendação por transmissão e também na parte de recomendação geral de acordo com os filtros escolhidos pelo usuário.
 Achei o paradigma interessante, mas acredito que se tivesse uma documentação melhor e uma comunidade mais ativa e popular seria de grande ajuda para o desenvolvimento do projeto | Excelente | 
+| Eliás Yousef | Minhas principais atribuições foram auxiliar no desenvolvimento dos filtros, em especial do preços desejados, e construção da interface gráfica do projeto. No começo senti uma certa dificuldade para compreensão do paradigma e da linguagem, o que acabou consumindo bastante tempo, que poderia ter sido utilizado para o desenvolvimento propriamente dito. | Boa |
 
 ## Outros
 
