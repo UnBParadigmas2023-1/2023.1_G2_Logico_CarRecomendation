@@ -1,27 +1,8 @@
-# RepositorioTemplate
-
-Esse repositório é para ser utilizado pelos grupos como um template inicial, da home page do Projeto.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-
-**!! _Atenção: Renomeie o seu repositório para (Ano.Semestre)*(Grupo)*(Paradigma)\_(NomeDoProjeto)_. !!**
-
-Paradigmas:
-
-- Funcional
-- Logico
-- SMA
-
-**!! _Não coloque os nomes dos alunos no título do repositório_. !!**
-
-**!! _Exemplo de título correto: 2022.2_G1_Logico_ProjetoRoteirosAereos_. !!**
-
-(Apague esses comentários)
-
-# NomeDoProjeto
+# Car Recomendation
 
 **Disciplina**: FGA0210 - PARADIGMAS DE PROGRAMAÇÃO - T01 <br>
-**Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: XX<br>
-**Paradigma**: XXXXXXXXXX<br>
+**Nro do Grupo (de acordo com a Planilha de Divisão dos Grupos)**: 02<br>
+**Paradigma**: Lógico<br>
 
 ## Alunos
 
@@ -42,8 +23,8 @@ Adicione 2 ou mais screenshots do projeto em termos de interface e/ou funcioname
 
 ## Instalação
 
-**Linguagens**: xxxxxx<br>
-**Tecnologias**: xxxxxx<br>
+**Linguagens**: Prolog<br>
+**Tecnologias**: SWI Prolog<br>
 Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
 Insira um manual ou um script para auxiliar ainda mais.
 Gifs animados e outras ilustrações são bem-vindos!
