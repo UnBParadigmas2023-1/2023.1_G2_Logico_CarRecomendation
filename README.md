@@ -32,23 +32,27 @@ Um projeto que utiliza Prolog para oferecer recomendações personalizadas de ca
 
 **Linguagens**: Prolog<br>
 **Tecnologias**: SWI Prolog, Win-Prolog<br>
-Descreva os pré-requisitos para rodar o seu projeto e os comandos necessários.
-Insira um manual ou um script para auxiliar ainda mais.
-Gifs animados e outras ilustrações são bem-vindos!
 
 ## Uso
 
-Explique como usar seu projeto.
-Procure ilustrar em passos, com apoio de telas do software, seja com base na interface gráfica, seja com base no terminal.
-Nessa seção, deve-se revelar de forma clara sobre o funcionamento do software.
+1. Baixe o repositório
+2. Acesse a pasta src/
+`cd src/`
+3. Acesse o shell do swi-prolog
+`swipl`
+4. Importe o arquivo main
+`[main].`
+5. Para iniciar utilize o comando
+`start`
+
+![](assets/uso.gif)
 
 ## Vídeo
 
-[Apresentação]((https://www.youtube.com/watch?v=bqKDU5b_leE)
+[Apresentação](https://www.youtube.com/watch?v=bqKDU5b_leE)
 
 ## Participações
 
-Apresente, brevemente, como cada membro do grupo contribuiu para o projeto.
 |Nome do Membro | Contribuição | Significância da Contribuição para o Projeto (Excelente/Boa/Regular/Ruim/Nula) |
 | -- | -- | -- |
 | Lucas Pimentel | Contribui com o script para montar a base de fatos, no desenvolvimento de funções para montar o perfil do usuário e auxiliei no desenvolvimento de funções de recomendação. Acredito que este paradigma foi um desafio maior para a equipe, tanto na concepção da ideia do projeto quanto para o desenvolvimento dele. Poderia ter contribuido mais se tivesse me organizado melhor durante a semana.| Excelente |
